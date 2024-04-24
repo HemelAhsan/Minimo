@@ -1,0 +1,149 @@
+/*font-variant caps means capaitalizing every letter with enlarging the first letter,*/
+/* 1em=16 px*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;}
+
+body{}
+
+.container{width: 1200px;
+           margin: 0 auto;
+           overflow: hidden;}
+
+img{max-width: 100%;
+    display: block;
+    filter: grayscale(100%);}
+
+a{text-decoration: none;
+  display: inline-block;}
+
+li{list-style: none;}
+
+.padding{padding: 0 100px;}
+
+header {padding: 30px 0;}
+header h1 {text-transform: uppercase;
+            font-size: 45px;
+            font-weight: 1000;
+            color: black;
+            cursor: pointer;
+            float: left;
+            letter-spacing: 5px;}
+header nav {float: right;
+            padding-top: 15px;}
+header nav ul{}
+header nav ul li{display: inline-block;
+                  padding: 0 40px;}
+header nav ul li a{text-transform: uppercase;
+                    font-size: 18px;
+                    color: #676767;
+                    cursor: pointer;
+                    transition: all 0.5s ease;
+                    -webkit-transition: all 0.5s ease;
+                    -moz-transition: all 0.5s ease;}
+header nav ul li a:hover {color: black;}
+
+banner-section{margin-bottom: 100px;}
+banner-section img{width: 100%;
+                    margin: 0 auto;
+                    padding: 0 auto;}
+
+intro-section{}
+.intro{margin: 50px 0;}
+.intro span{color: #676767;
+            font-size: 15px;
+            text-transform: uppercase;}
+.intro h1{color: #676767;
+            font-size: 30px;
+           padding: 20px 0;
+          font-weight: 100;}
+.intro p{color: #676767;
+            font-size: 15px;}
+.intro a{color: #676767;
+            font-size: 15px;
+          cursor: pointer;
+          text-transform: uppercase;
+        padding-top: 40px;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;}
+.intro a:hover{color: black;}
+
+.blog{float: left;
+      padding: 0 20px;
+      width: 50%;}
+.blog .intro h1{}
+
+.signup-setion{background-color: #F0F0F0;
+                padding: 50px 0;
+               margin-bottom: 100px;}
+.signup{text-align: center;}
+.signup h1{color: #343434;
+            font-size: 30px;
+           padding: 20px 0;
+          font-weight: 100;
+          padding-bottom: 50px;}
+.signup form{border-bottom: 1px solid #303030;
+              width: 300px;
+              margin: auto;
+              margin-bottom: 60px;}
+.signup form input{background-color: transparent;
+                    border: none;
+                    font-size: 15px;
+                    padding-bottom: 5px;
+                    width: 90%;
+                    outline: none;}
+.signup form button{background-color: transparent;
+                    border: none;
+                    transform: rotate(45deg);
+                    font-size: 15px;
+                    cursor: pointer;
+                    transition: all 0.5s ease;
+                    -webkit-transition: all 0.5s ease;
+                    -moz-transition: all 0.5s ease;}
+.signup form button:hover{color: #7B7B7B;}
+
+.eblog-section{margin-bottom: 60px;
+               text-align: center;
+               padding: 50px 0;}
+
+.eblog{color: #7B7B7B;
+       font-size: 20px;
+       padding: 20px 30px;
+       background-color: transparent;
+       border: 1px solid #7B7B7B;
+       transition: all 0.5s ease;
+       -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+       cursor: pointer;}
+.eblog:hover{background-color: #7B7B7B;
+              color: white;}
+
+footer{padding: 50px;
+        background-color: #F0F0F0;}
+.policy{float: left;}
+.policy ul{}
+.policy ul li{padding: 0 10px;
+               display: inline-block;}
+.policy ul li a{color: #464646;
+                font-size: 15px;
+                transition: all 0.5s ease;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;}
+.policy ul li a:hover{color: black;}
+.social{float: right;}
+.social ul{}
+.social ul li{padding: 0 10px;
+               display: inline-block;
+               color: #464646;
+                font-size: 15px;}
+.social ul li a{color: #464646;
+                font-size: 15px;
+                transition: all 0.5s ease;}
+.social ul li a:hover{color: black;}
+
